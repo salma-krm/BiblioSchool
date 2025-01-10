@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Client - Dashboard</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md">
+      <a class="navbar-brand" href="historique.html">Navbar</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarsExampleDefault"
+        aria-controls="navbarsExampleDefault"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Bienvenue, Dagnogo Yaya</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">Deconnexion</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Header Sectionn -->
+    <header id="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10">
+            <h1>
+              <i class="fas fa-cogs"></i> Dashboard
+              <small>Manage your site</small>
+            </h1>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Breadcrumb -->
+    <section id="breadcrumb">
+      <div class="container">
+        <ol class="breadcrumb">
+          <li class="active">Dashboard</li>
+          <span>->Dashboard</span>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Main -->
+    <section id="main">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="list-group">
+              <a
+                href="dashboard.html"
+                class="list-group-item no-underline main-color-bg"
+              >
+                <i class="fas fa-cogs"></i> Dashboard
+              </a>
+              <a
+                href="profil.html"
+                class="list-group-item align-items-center list-group-item__ext no-underline text-black"
+              >
+                <i class="fas fa-user-alt"></i> Profils</a
+              >
+              <a
+                href="reservation.html"
+                class="list-group-item list-group-item__ext no-underline text-black"
+                ><i class="far fa-newspaper"></i> Mes Reservations
+              </a>
+              <a
+                href="historique.html"
+                class="list-group-item list-group-item__ext no-underline text-black"
+                ><i class="fas fa-file-alt"></i> Historiques
+              </a>
+              <!-- <a
+                href="historique.html"
+                class="list-group-item list-group-item__ext no-underline text-black"
+                ><i class="far fa-newspaper"></i> Liste des salles
+              </a> -->
+            </div>
+          </div>
+
+          <div class="col-md-9">
+            <div class="card">
+              <!-- <div class="card-header main-color-bg">Etat des reservations</div> -->
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-md-3 offset-md-1">
+                    <div class="card card-body bg-light">
+                      <h2><i class="far fa-newspaper"></i> 202</h2>
+
+                      <a
+                        href="reservation.html"
+                        class="alert alert-warning alert-md"
+                        >Accepter</a
+                      >
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="card card-body bg-light">
+                      <h2><i class="far fa-newspaper"></i> 202</h2>
+
+                      <a
+                        href="reservation.html"
+                        class="alert alert-danger alert-md"
+                        >En Attente</a
+                      >
+                    </div>
+                  </div>
+                  <div class="col-md-3 offset-md">
+                    <div class="card card-body bg-light">
+                      <h2><i class="far fa-newspaper"></i> 202</h2>
+                      <a
+                        href="reservation.html"
+                        class="alert alert-info alert-md"
+                        >Rejeter</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer">
+      <p>
+        <i class="fa fa-copyright" aria-hidden="true"></i>Copyright, &copy; 2020
+      </p>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <!-- <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script> -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

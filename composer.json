@@ -1,0 +1,16 @@
+{
+    "name": "youcode/biblio-school",
+    "autoload": {
+        "psr-4": {
+            "src\\": "src/"
+             
+        }
+    },
+    "authors": [
+        {
+            "name": "salma",
+            "email": "salmatergui7@gmail.com"
+        }
+    ],
+    "require": {}
+}
